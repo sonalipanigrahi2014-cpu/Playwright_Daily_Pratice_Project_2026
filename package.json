@@ -1,0 +1,25 @@
+{
+  "name": "playwrite_erp_project_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "All-Test-ResultData": "npx playwright test",
+    "All-HTML-ReportData": "npx playwright show-report",
+    "All-Allure-ReportData": "npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
+    "Single-Test-ResultData": "npx playwright test tests/BasicBuiltIn.spec.ts",
+    "AllFile-TestRunner-UIData": "npx playwright test --ui",
+    "Codegen-ScriptRun-Application": "npx playwright codegen https://qa-practice.razvanvancea.ro/register.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2",
+    "dotenv": "^17.4.2"
+  }
+}

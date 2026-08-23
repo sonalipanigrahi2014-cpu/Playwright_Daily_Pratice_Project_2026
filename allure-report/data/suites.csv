@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8316","By using Build In locator Flight Registaration","chromium","2026-08-12","passed","2026-08-12","","BuiltinFlightRegister.spec.ts","",""
+"","31076","validation get methods","chromium","2026-08-12","passed","2026-08-12","","getmethods.spec.ts","",""
+"","12560","verify URL","chromium","2026-08-12","passed","2026-08-12","","verifyurl.spec.ts","",""
+"","16459","Basic Css selector","chromium","2026-08-12","passed","2026-08-12","","Basicui.spec.ts","",""
+"","10736","checking the page title","chromium","2026-08-12","passed","2026-08-12","","verifytitle.spec.ts","",""
+"","12241","Xpath Locator","chromium","2026-08-12","passed","2026-08-12","","Basicxpath.spec.ts","",""
+"","15685","Using Built In Locator","chromium","2026-08-12","passed","2026-08-12","","BasicBuiltIn.spec.ts","",""
