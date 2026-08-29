@@ -1,0 +1,22 @@
+import test from "@playwright/test";
+
+test('Basic Css selector',async({page})=>{
+    await page.goto('https://qa-practice.razvanvancea.ro/register.html')
+    await page.waitForTimeout(4000)
+    await page.locator('input#firstName').fill('Sagarika')
+    //await page.waitForTimeout(3000)
+    await page.locator('input.form-control').nth(1).fill('Playwright')
+    //await page.waitForTimeout(4000)
+    await page.locator('div.form-group>input#phone').fill('23456789')
+    //await page.waitForTimeout(2000)
+    await page.locator('select[class="browser-default custom-select"]').selectOption('India')
+    //await page.waitForTimeout(3000)
+    await page.locator('input[class^="form"]').nth(3).fill('Test@gmail.com')
+   // await page.waitForTimeout(4000)
+    await page.locator('input[type*="word"]').fill('Test@123')
+    //await page.waitForTimeout(4000)
+    await page.locator('input[class$="input"]').click()
+    //await page.waitForTimeout(4000)
+    await page.locator('button.btn.btn-primary').click()
+    await page.waitForTimeout(4000)
+})
